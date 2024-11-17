@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jiya Tours & Travels</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <meta name="description" content="A premium one-stop for all Travel needs. Trained Travel Experts assists with all aspects of Travel. Head office located in Kuttikol, Kasaragod Kerala.">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script type="text/javascript" src="message/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="message/floating-wpp.css">
+  <script type="text/javascript" src="message/floating-wpp.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta name="keywords" content="Tours, Travel, Kerala, Jiya, Travels, Jiya Travels, Kerala, Munnar, Tourism, Jiyatravels">
+</head>
+<body>
+   <div id="myButton"></div>
+   <style>
+   
+   .floating-wpp {
+       z-index: 50;
+   }
+   </style>
+
+   <script type="text/javascript">
+       $(function () {
+           $('#myButton').floatingWhatsApp({
+               phone: '+917510313909',
+               popupMessage: 'Hello, how can we help you?',
+               message: "I'd like to Get Your Service",
+               showPopup: true,
+               showOnIE: false,
+               headerTitle: 'Welcome!',
+               headerColor: '#ffb011',
+               backgroundColor: '#1291c4',
+               buttonImage: '<img src="message/whatsapp.svg" />'
+           });
+       });
+   </script>
+   
+  <!-- header start -->
+  <header class="header">
+     <div class="container">
+        <div class="header-main">
+           <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt=""></a>
+           </div>
+           <div class="open-nav-menu">
+              <span></span>
+           </div>
+           <div class="menu-overlay">
+           </div>
+           <!-- navigation menu start -->
+           <nav class="nav-menu">
+             <div class="close-nav-menu">
+                <img src="img/close.png" alt="close">
+             </div>
+             <ul class="menu">
+                <li class="menu-item">
+                   <a href="index.html">Home</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                   <a href="#" data-toggle="sub-menu">Services<i class="plus"></i></a>
+                   <ul class="sub-menu">
+                       <li class="menu-item"><a href="service.html">Air Tickets</a></li>
+                       <li class="menu-item"><a href="service.html">Bus Ticketing</a></li>
+                       <li class="menu-item"><a href="service.html">Railway Tickets</a></li>
+                       <li class="menu-item"><a href="service.html">Visa Assistance</a></li>
+                       <li class="menu-item"><a href="service.html">Tour Packages</a></li> 
+                   </ul>
+                </li>
+                
+                <li class="menu-item">
+                  <a href="#testimonial">Testimonial</a>
+               </li>
+                
+                <li class="menu-item">
+                   <a href="about.html">About</a>
+                </li>
+                <li class="menu-item" >
+                   <a href="#connect" id="login">contact Us</a>
+                </li>
+                
+             </ul>
+           </nav>
+           <!-- navigation menu end -->
+        </div>
+     </div>
+  </header>
+  <script src="js/header.js"></script>
+  <!-- header end -->
+
+   <section id="home">
+      <ul>
+         <li class="content home-content" id="tra" >
+            <h1>JIYA TOURS & TRAVELS PRIVATE LIMITED</h1>
+            <p >
+               Jiya Tours & Travels Private Limited Is Registered Travel Agency Company In India And Its A Premium One-Stop For All Of Your Travel Needs. Trained Travel Experts Assists With All Aspects Of Travel. Head Office Located In Kuttikol, Kasaragod Kerala, India. Our Branches Are Located In Poinachi, Kundamkuzhy, Kuttikol And Bandaduka.
+
+            </p>
+         </li>
+         <script>
+            window.addEventListener("load", function() {
+              const listItem = document.getElementById("tra");
+              listItem.classList.add("slide-in");
+            });
+          </script>
+                    <style>
+                        
+      
+                             li#tra {
+                            opacity: 0;
+                            }
+      
+                            @keyframes slideInAnimation {
+                            0% {
+                                opacity: 0;
+                                transform: translateX(-100%);
+                            }
+                            100% {
+                                opacity: 1;
+                                transform: translateX(0);
+                            }
+                            }
+      
+                            .slide-in {
+                            animation: slideInAnimation 1s forwards; /* Adjust the duration of the slide-in effect */
+                            }
+      
+          </style>
+         <li class="image wimg" id="tra-img">
+            <img src="img/home.png" alt="" class="home-slide">
+
+         </li>
+      </ul>
+   </section>
+
+
+
+   <style>
+      .list {
+      list-style: none;
+      padding: 0;
+      }
+      
+      .wimg {
+      opacity: 0;
+      transform: translateX(100%);
+      animation: slideInFromRight 1s forwards; /* Adjust the duration of the slide-in effect */
+      }
+      
+      @keyframes slideInFromRight {
+      to {
+      opacity: 1;
+      transform: translateX(0);
+      }
+      }
+      
+      </style>
+   
+
+<section id="connect">
+   <div class="connect">
+      <div class="content">
+        <div class="image-box">
+          <img src="img/contact.png" alt="" />
+        </div>
+        <form 
+        id="submit-form"
+        name="product"
+        name="submit-form"
+      >
+          <div class="topic">Ticket Enquiry</div>
+          <div class="input-box">
+            <input type="text" required name="origin" />
+            <label>Origin</label>
+          </div>
+          <div class="input-box">
+            <input type="text" required  name="destination"/>
+            <label>Destination</label>
+          </div>
+        
+          <div class="input-box date">
+         
+            <input type="date" id="birthday" name="departure" >
+          </div>
+          
+          <div class="input-box">
+            
+            <input type="text" required maxlength="10" name="number" placeholder="Phone Number" id="no"/>
+         
+          </div>
+          <div class="input-box">
+          <div class="input-box">
+            
+            <input type="number" id="quantity" name="passengers" min="1" placeholder="No Of Passengers" class="no">
+          </div>
+          <div class="input-box">
+          
+         </div>
+          </div>
+
+      
+         
+
+          <div class="input-box">
+            <input type="submit" value="Submit" id="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+   </section>
+
+
+   <!-- <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbxW_1CL4dVG3ltc60TI3d9PG1cTVIbb-qSMkPESeUCWohfPZIHRVr8JdDo8332hApRn/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script> -->
+
+<script>
+   const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzpIlIQaN3kMG_yl9tlF4Jop05_o-Ii6g4sytiM1y4ZcUoaMBeF7SgoNQCjOU9LraZ3/exec";
+   const from = document.forms["submit-form"];
+
+   from.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(from) })
+         .then((responce) => {
+            alert("Thank you! your form is sumitted successfully");
+            window.location.href = "index.html";
+         })
+         .catch((error) => {
+            console.log(error);
+         });
+   });
+</script>
+
+
+
+<section class="dubai">
+   <ul>
+      <li>
+         <h3>Latest Update</h3>
+      </li>
+      <li>
+         <div>
+            <img src="images/dubai.jpeg" alt="">
+         </div>
+      </li>
+   </ul>
+</section>
+
+
+
+      <section id="branch">
+         
+         <ul class="jiya">
+            <!-- <li class="tittle">
+               <h1>Where We Are</h1>
+            </li> -->
+            
+            <li>
+               <div class="img">
+                  <a href="https://maps.app.goo.gl/SJdQvidCcJefEXW18">
+                     <img src="img/location.png" alt="Simple Location Map Pin Icon10 Yellow Free Vector Data - Yellow Location Pin" />
+                  </a>
+               </div>
+               <div class="place">
+                  <a href="https://maps.app.goo.gl/SJdQvidCcJefEXW18">POINACHI</a>
+                  <p>PULINTHOTTI COMPLEX, UNION BANK BUILDING, POINACHI, KASARAGOD
+                  </p>
+                  <a href="tel:+917510207909">7510207909 
+                  </a>
+               </div>
+            </li>
+            <li>
+               <div class="img">
+                  <a href="https://maps.app.goo.gl/CuAi3BWQutKYgJENA">
+                     <img src="img/location.png" />
+                  </a>
+               </div>
+               <div class="place">
+                  <a href="https://maps.app.goo.gl/CuAi3BWQutKYgJENA">KUNDAMKUZHY</a>
+                 <p>TT BUILDING, KUNDAMKUZHI, KASARAGOD
+               </p>
+                 <a href="tel:+919961323909">9961323909
+               </a>
+               </div>
+            </li>
+            <li>
+               <div class="img">
+                  <a href="https://maps.app.goo.gl/SJdQvidCcJefEXW18">
+                     <img src="img/location.png" alt="Simple Location Map Pin Icon10 Yellow Free Vector Data - Yellow Location Pin" />
+                  </a>
+               </div>
+               <div class="place">
+                  <a href="https://maps.app.goo.gl/EVmRZaHtMQicbLKU9?g_st=com.google.maps.preview.copy">DUBAI</a>
+                  <p>SALAH AL DIN BUILDING, NEAR ABUBACKER SIDDIQUE METRO STATION, 1ST FLOOR, OFFICE NO 4, AL KABHEESI DUBAI, UNITED ARAB EMIRATES
+                  </p>
+                  <a href="tel:+971545540764">+971 545540764
+                  </a>
+                  <a href="tel:+971586384457">+971 586384457
+                  </a>
+                  <a href="tel:042564691107">042564691-107
+                  </a>
+               </div>
+            </li>
+            <li>
+               <div class="img">
+                  <a href="https://maps.app.goo.gl/1S3JRn4xU37Tq5A68">
+                     <img src="img/location.png" />
+                  </a>
+               </div>
+               <div class="place">
+                  <a href="https://maps.app.goo.gl/1S3JRn4xU37Tq5A68">KUTTIKOL</a>
+                  <p>BISMILLAH COMPLEX, NEAR POST OFFICE, KUTTIKOL, KASARAGOD
+                  </p>
+                  <a href="tel:+916235323909">6235323909
+                  </a>
+               </div>
+            </li>
+            <li>
+               <div class="img">
+                  <a href="https://www.google.com/maps/place/12%C2%B030'05.7%22N+75%C2%B016'00.7%22E/@12.5015893,75.2642825,17z/data=!3m1!4b1!4m4!3m3!8m2!3d12.5015893!4d75.2668574?hl=en&entry=ttu">
+                     <img src="img/location.png" />
+                  </a>
+               </div>
+               <div class="place">
+                  <a href="https://www.google.com/maps/place/12%C2%B030'05.7%22N+75%C2%B016'00.7%22E/@12.5015893,75.2642825,17z/data=!3m1!4b1!4m4!3m3!8m2!3d12.5015893!4d75.2668574?hl=en&entry=ttu">BANDADUKA</a>
+                  <p>SOUPARNIKA COMPLEX, NEAR KGB BANK, BANDADUKA KASARAGOD
+                  </p>
+                  <a href="tel:+917510323909">7510323909</a>
+               </div>
+            </li>
+         </ul>
+      </section>
+
+
+
+      <style>
+         /* CSS to initially hide the element */
+         .jiya {
+             opacity: 0;
+             margin-left: -100%; /* Move the element off-screen to the left */
+             transition: opacity 0.5s ease, margin-left 0.5s ease;
+         }
+     </style>
+
+<script>
+   // JavaScript to trigger the animation when scrolling
+   var jiyaElement = document.querySelector('.jiya');
+
+   window.addEventListener('scroll', function() {
+       var jiyaRect = jiyaElement.getBoundingClientRect();
+       var windowHeight = window.innerHeight;
+
+       if (jiyaRect.top < windowHeight) {
+           jiyaElement.style.opacity = '1';
+           jiyaElement.style.marginLeft = '0';
+       }
+   });
+</script>
+
+
+
+
+
+
+
+
+   <section class="service">
+      <h1 class="scroll-opacity">SERVICES</h1>
+
+<style>
+   /* Set initial opacity to 0 */
+.scroll-opacity {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Add a transition for a smooth effect */
+}
+
+</style>
+
+      <script>
+         document.addEventListener("DOMContentLoaded", function () {
+    const h1Element = document.querySelector(".scroll-opacity");
+
+    window.addEventListener("scroll", function () {
+        const scrollY = window.scrollY;
+
+        // You can adjust the threshold for when the opacity changes
+        const threshold = 100; // Adjust as needed
+
+        if (scrollY >= threshold) {
+            h1Element.style.opacity = 1; // Fully visible
+        } else {
+            h1Element.style.opacity = 0; // Hidden
+        }
+    });
+});
+
+      </script>
+      <ul>
+         <li class="nodeimg">
+            <div class="simg">
+               <img src="img/flight.jpg" alt="">
+            </div>
+            <div class="scontent">
+               <h2>Air Tickets</h2>
+               <p>Flying for business work or for a vacation? Our Team of expert professionals will surely suggest and book the right flight.</p>
+               <a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+know+About+your=service.type=phone_number&app_absent=0">Know More</a>
+            </div>
+         </li>
+         <li class="nodeimg">
+            <div class="simg">
+               <img src="img/bus.jpg" alt="">
+            </div>
+            <div class="scontent">
+               <h2>Bus Ticketing</h2>
+               <p>We book a convenient and instant bus ticket for domestic travel all over India at the best price.</p>
+               <a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+know+About+your=service.type=phone_number&app_absent=0">Know More</a>
+            </div>
+         </li>
+         <li class="nodeimg">
+            <div class="simg">
+               <img src="img/train.jpg" alt="">
+            </div>
+            <div class="scontent">
+               <h2>Railway Tickets</h2>
+               <p>Authorized IRCTC Agents: Hassle-Free Railway Ticket Booking for a Smooth Journey.book your train now</p>
+               <a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+know+About+your=service.type=phone_number&app_absent=0">Know More</a>
+            </div>
+         </li>
+        
+         <li class="nodeimg"> 
+            <div class="simg">
+               <img src="img/visa2.jpg" alt="">
+            </div>
+            <div class="scontent">
+               <h2>Visa Assistance</h2>
+               <p>We Will Make Your Dreams Come True By Assisting Visas. Expert In Dubai Visit Visa etc
+               </p>
+               <a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+know+About+your=service.type=phone_number&app_absent=0">Know More</a>
+            </div>
+         </li>
+         <li class="nodeimg">
+            <div class="simg">
+               <img src="img/tour.jpg" alt="">
+            </div>
+            <div class="scontent">
+               <h2>Tour Packages</h2>
+               <p>best, safe and secure tours for any places cost-effectively with complete pleasure</p>
+               <a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+know+About+your=service.type=phone_number&app_absent=0">Know More</a>
+            </div>
+         </li>
+         <li class="nodeimg">
+            <div class="simg">
+               <img src="img/emigration.jpg" alt="">
+            </div>
+            <div class="scontent">
+               <h2>Attestation & Emigration</h2>
+               <p>Fast And Secure Certificate Embassy Attestation  Available For All Countries</p>
+               <a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+know+About+your=service.type=phone_number&app_absent=0">Know More</a>
+            </div>
+         </li>
+     
+     
+   
+      </ul>
+      <div class="centre">
+         <a href="service.html" class="main">All Services</a>
+      </div>
+   </section>
+
+
+
+   <style>
+       
+      .nodeimg{
+          opacity: 0;
+          transform: translatey(100px); /* Starting position - slide from left by 50px */
+          transition: opacity 0.5s, transform 0.5s; /* Transition properties */
+        
+      
+      }
+  </style>
+
+
+<script>
+   function revealFromSide() {
+       var nodes = document.querySelectorAll('.nodeimg');
+   
+       for (var i = 0; i < nodes.length; i++) {
+           var node = nodes[i];
+           var revealPoint = node.offsetTop + node.offsetHeight / 2; // Reveal when the element is at the middle of the viewport
+   
+           // Check if the scroll position reaches the reveal point
+           if (window.scrollY + window.innerHeight >= revealPoint) {
+               node.style.opacity = 1;
+               node.style.transform = 'translateX(0)';
+           }
+       }
+   }
+   
+   window.addEventListener('scroll', revealFromSide);
+   // Call the function once on page load in case the elements are already visible
+   window.addEventListener('load', revealFromSide);
+   </script>
+   
+
+<section class="tittles">
+   <h1 >Special Services</h1>
+</section>
+   <section class="plans">
+      
+      <div class="slide-container swiper">
+         <div class="slide-content">
+             <div class="card-wrapper swiper-wrapper">
+                 <div class="card swiper-slide one">
+                     
+
+                     <div class="card-content">
+                         <h2 class="name">A2A VISA CHANGE UAE</h2>
+                         <p class="description">Tension Free UAE Visit Visa Change Available At Best In Market.
+                        </p>
+
+                         <a  target="blank" href="https://api.whatsapp.com/send/?phone=%2B919645033044&text=I%27d+like+to+Get+Your+Service&type=phone_number&app_absent=0">
+                           <button class="button">Know More</button>
+                         </a>
+                     </div>
+                 </div>
+                 <div class="card swiper-slide two">
+                     
+
+                     <div class="card-content">
+                         <h2 class="name">SPECIAL FARE TICKET</h2>
+                         <p class="description">"Best Deal Fare Available (Non Refundable Ticket) On Selected Dates From India"</p>
+
+                         <a  target="blank" href="https://api.whatsapp.com/send/?phone=%2B919645033044&text=I%27d+like+to+Get+Your+Service&type=phone_number&app_absent=0">
+                           <button class="button">Know More</button>
+                         </a>
+                     </div>
+                 </div>
+                 <div class="card swiper-slide three">
+                    
+
+                     <div class="card-content">
+                         <h2 class="name">UAE VISIT VISA</h2>
+                         <p class="description">Expert In 30 Days, 60 Days & 90 Days Visit Visa With Insurance, In affordable</p>
+
+                         <a  target="blank" href="https://api.whatsapp.com/send/?phone=%2B919645033044&text=I%27d+like+to+Get+Your+Service&type=phone_number&app_absent=0">
+                           <button class="button">Know More</button>
+                         </a>
+                     </div>
+                 </div>
+                 <div class="card swiper-slide four">
+                    
+
+                     <div class="card-content">
+                         <h2 class="name">MUNNAR KERALA PACKAGE</h2>
+                         <p class="description">Premium Private Cab Munnar Package For Enjoying The Vacation Or Honeymoon.
+                        </p>
+                        <a  target="blank" href="https://api.whatsapp.com/send/?phone=%2B919645033044&text=I%27d+like+to+Get+Your+Service&type=phone_number&app_absent=0">
+                         <button class="button" >Know More</button>
+                        </a>
+                     </div>
+
+
+
+
+                     
+                 </div>
+                 
+
+                 <div class="card swiper-slide five">
+                 <div class="card-content">
+                  <h2 class="name">TAXI SERVICE</h2>
+                  <p class="description">Jiya Travels offers convenient airport pickup taxi services for travelers.
+                 </p>
+                 <a  target="blank" href="https://api.whatsapp.com/send/?phone=%2B919645033044&text=I%27d+like+to+Get+Your+Service&type=phone_number&app_absent=0">
+                  <button class="button" >Know More</button>
+                 </a>
+                  </div>
+                 
+               </div>
+             </div>
+         </div>
+
+        
+         <div class="swiper-pagination"></div>
+     </div>
+     
+ </body>
+
+ <!-- Swiper JS -->
+ <script src="js/swiper-bundle.min.js"></script>
+
+ <!-- JavaScript -->
+ <script src="js/slider.js"></script>
+   </section>
+
+
+
+
+
+<section class="video">
+   <div class="video-container">
+      <video controls>
+          <source src="video/video.mp4" >
+          Your browser does not support the video tag.
+      </video>
+  </div>
+
+   <style>
+      section.video {
+    padding: 100px;
+    background: #f1f1f1;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 54.25%;
+    padding-top: 23px;
+    height: 0px;
+    overflow: hidden;
+}    
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        @media all and (max-width: 480px) {
+         section.video {
+    padding: 36px;
+    background: #f1f1f1;
+}
+        }
+
+
+
+        
+    </style>
+
+</section>
+
+
+
+
+
+   <section  class="tittle">
+      
+      <section id="testimonial">
+         <h1>Testimonial</h1>
+         <div class="testimonial mySwiper">
+            <div class="testi-content swiper-wrapper">
+              <div class="slide swiper-slide">
+                <img src="images/img1.jpg" alt="" class="image" />
+                <p>
+                  
+"Jiya Tours and Travels consistently deliver exceptional service, making my journeys unforgettable. I wholeheartedly recommend them for a stress-free and memorable travel adventure."
+                </p>
+    
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+    
+                <div class="details">
+                  <span class="name">HARISH KUMAR</span>
+                  <span class="job">DIRECTOR & MD OF LINNK ACADEMY INDIA </span>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="images/img2.jpg" alt="" class="image" />
+                <p>
+                  "I had an amazing experience traveling with Jiya Tours & Travels. Their attention to detail and commitment to customer satisfaction made my trip truly unforgettable. I referred to so many friends and relative, they are also getting extra ordinary service from Jiya"
+                </p>
+    
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+    
+                <div class="details">
+                  <span class="name">NOEL RAJU </span>
+                  <span class="job">In DUBAI, UNITED ARAB EMIRATES</span>
+                </div>
+              </div>
+
+              <div class="slide swiper-slide">
+               <img src="images/img3.jpg" alt="" class="image" />
+               <p>
+                  "I've been a loyal Jiya Travels customer from the beginning, and I strongly recommend them for their excellent service and support. They're my go-to travel partner, and I encourage everyone to choose them for a great journey."
+               </p>
+   
+               <i class="bx bxs-quote-alt-left quote-icon"></i>
+   
+               <div class="details">
+                 <span class="name">VAISAKH NAMBIAR</span>
+                 <span class="job"></span>
+               </div>
+             </div>
+
+             <div class="slide swiper-slide">
+               <img src="images/img4.jpg" alt="" class="image" />
+               <p>
+                 "Professional Service from Jiya travels. Dedicative Staffs are doing ticket service even midnight also, Never ever will get that type of service from any other travel agencies.."
+               </p>
+   
+               <i class="bx bxs-quote-alt-left quote-icon"></i>
+   
+               <div class="details">
+                 <span class="name">FAISAL</span>
+                 <span class="job">In ABUDHABI,UAE</span>
+               </div>
+             </div>
+
+             <div class="slide swiper-slide">
+               <img src="images/img5.jpg" alt="" class="image" />
+               <p>
+                "As a President of KVVES I have to travel a lot.. All my train and air travel arrangements are doing Jiya travels. Staffs are Perfectly arranging tickets as per my schedule, so I am absolutely tension free while traveling"
+               </p>
+   
+               <i class="bx bxs-quote-alt-left quote-icon"></i>
+   
+               <div class="details">
+                 <span class="name">Ahammed Sherif </span>
+                 <span class="job">KVVES State Vice President</span>
+               </div>
+             </div>
+
+             <div class="slide swiper-slide">
+               <img src="images/img6.jpg" alt="" class="image" />
+               <p>
+                 "I am Extremely Thankful to Jiya Travels for Providing me Dubai Visit Visa within Two Hours of Time. I am very Much satisfied with their Fantastic Service and I wish Jiya travels to continue their fasten service."
+               </p>
+   
+               <i class="bx bxs-quote-alt-left quote-icon"></i>
+   
+               <div class="details">
+                 <span class="name">Sudheesh Babu</span>
+                 <span class="job">In Dubai</span>
+               </div>
+             </div>
+
+
+              <div class="slide swiper-slide">
+                <img src="images/img7.jpg" alt="" class="image" />
+                <p>
+                  "Jiya Tours and Travels is your go-to for all travel needs in India. Their friendly, dedicated staff provides info, tours, transportation, car rentals, and flight tickets. I've had great experiences and highly recommend them for affordable, flexible travel packages."
+                </p>
+    
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+    
+                <div class="details">
+                  <span class="name">Jayaraj</span>
+                  <span class="job">Australia</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </section>
+    
+     </section>
+ 
+     <!-- Swiper JS -->
+     
+ 
+     <!-- JavaScript -->
+     <script src="js/testimonial.js"></script>
+   </section>
+
+   <section id="about">
+      <h1>About Us</h1>
+      <ul>
+         <li>
+            <p>With a passion for crafting unforgettable travel experiences, we've been delivering exceptional services since 2016. Our expert team specializes in air ticketing, hotel bookings, tour packages, rail ticketing, and tourist visas, primarily for the Middle East. Comprising dedicated professionals, we aim to make your journey stress-free and memorable. Operating from our four active branches in Kuttikol, Poinachi, Kundamkuzhy, and Bandadka, our 24/7 travel agency ensures prompt responses and bookings day or night. Trust us for all your travel needs, as we've built a reputation for honesty and customer satisfaction over the years.</p>
+         </li>
+         <li><a href="about.html">Know More</a></li>
+      </ul>
+   </section>
+
+
+   <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">about us</a></li>
+  	 				<li><a href="#service">our services</a></li>
+  	 				<li><a href="about.html">privacy policy</a></li>
+  	 				<li><a href="#connect">Drop a Message</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="https://api.whatsapp.com/send/?phone=917510313909&text=Got+reference+from+your+website.+Want+to+know+more+details.&type=phone_number&app_absent=0">FAQ</a></li>
+  	 				<li><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x3ba4892e5ef3b3f1:0xb69dd53654911ba9?utm_source=mstt_1">Destination</a></li>
+  	 				<li><a href="service.html">Travel</a></li>
+  	 				<li><a href="https://api.whatsapp.com/send/?phone=917510313909&text=I+Want+To+Know+My+Want+to+know+Order+Status.&type=phone_number&app_absent=0">order status</a></li>
+  	 				<li><a href="https://api.whatsapp.com/send/?phone=917510313909&text=How+can+we+pay+for+you.&type=phone_number&app_absent=0">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online service</h4>
+  	 			<ul>
+  	 				<li><a href="service.html">Railway Tickets</a></li>
+  	 				<li><a href="service.html">Bus Ticketing</a></li>
+  	 				<li><a href="service.html">Air Tickets</a></li>
+  	 				<li><a href="service.html">Visa Assistance</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/jiyatravels2016" target="blank"><i class="fab fa-facebook-f"></i></a>
+
+  	 				<a href="https://api.whatsapp.com/send/?phone=%2B919645033044&text=I%27d+like+to+Get+Your+Service&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+  	 		
+                  
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+<div class="brand">
+   <p>© All rights reserved | Designed and developed by Code Cave Media</p>
+</div>
+</body>
+</html>
